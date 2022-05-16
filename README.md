@@ -21,5 +21,5 @@ This service will provide short aliases redirecting to long URLs.
 <!-- CONTACT -->
 ## Contact
 Alexander Zotz - AlexMitDemBart@gmail.com
-Project Link: (https://github.com/your_username/repo_name)
+Project Link: (https://github.com/AlexMitDemBart/url-shortener.git)
 <p align="right">(<a href="#top">back to top</a>)</p>
