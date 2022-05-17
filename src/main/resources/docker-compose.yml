@@ -14,3 +14,12 @@ services:
     ports:
       - 3306:3306
     restart: always
+
+  url-api:
+    image: url-shortener
+    container_name: url-shortener
+    environment:
+      - TZ=Europe/Berlin
+      - SPRING_PROFILES_ACTIVE=docker
+    ports:
+      - 8080:8080
