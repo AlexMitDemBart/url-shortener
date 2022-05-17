@@ -79,9 +79,10 @@ networks:
 ```
 
 file to create an image of the MySQL Database. </br>
-Start the application in docker profile.
+depends_on ensures that the url-db container is running before starting url-api container.
 
-both container will run in the same network to ensure no container from outside can connect to it.</br>
+to increase security the docker containers running in same network for capsulated communication.
+
 to create the network execute:
 ```sh
 docker network create url-shortener-network
