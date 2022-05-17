@@ -43,7 +43,14 @@ The image will build from pom.xml configurations
                   </resources>
             </configuration>
   </plugin>
-   ```
+```
+   
+execute the 
+```sh
+docker-compose.yml
+```
+file to create an image of the MySQL Database. </br>
+Start the application in docker profile.
 
 <!-- CONTACT -->
 ## Contact
