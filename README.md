@@ -52,6 +52,12 @@ docker-compose.yml
 file to create an image of the MySQL Database. </br>
 Start the application in docker profile.
 
+both container will run in the same network to ensure no container from outside can connect to it.</br>
+to create the network execute:
+```sh
+docker network create url-shortener-network
+```
+
 <!-- CONTACT -->
 ## Contact
 Alexander Zotz - AlexMitDemBart@gmail.com
